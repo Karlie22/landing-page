@@ -37,3 +37,22 @@ ul {
 header {
     display: flex;
 }
+
+.info {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.card
+
+img {
+    border-radius: 5px 5px 0 0;
+
+}
+
