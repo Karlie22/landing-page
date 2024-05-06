@@ -38,34 +38,64 @@ header {
     display: flex;
 }
 
+.randominfo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .info {
     padding: 20px;
     display: flex;
-    justify-content: space-evenly;
-
-
+    justify-content: space-evenly; 
 }
 
 h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 36px;
     color: #1f2937;
+    flex-shrink: 0;
 }
 
 .flowers {
     border-radius: 5px;
     width: 150px;
     height: 150px;
-    border: solid #3882f6; 
+    border: solid #3882f6;
+    margin: 0px 20px 0px 20px;
+    
 }
 .subtext2 {
     text-align: center;
     width: 150px;
     height: 150px;
     font-family: Arial, Helvetica, sans-serif;
-    color: #313131f1
+    color: #313131f1;
+    margin: 0px 20px 0px 20px;
 }
+
+.quote {
+    background-color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1f2937;
+    text-align:justify;
+    padding: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inspiring {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.name {
+    font-weight: bold;
+    font-size:large;
+    display: flex;
+    align-self: flex-end;
+}
+
+
