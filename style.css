@@ -1,3 +1,4 @@
+
 .header {
     background-color: #1f2937;
     font-family: Arial, Helvetica, sans-serif;
@@ -41,6 +42,7 @@ header {
 .randominfo {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
 }
 
@@ -51,6 +53,9 @@ header {
 }
 
 h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 36px;
@@ -92,10 +97,24 @@ h2 {
 }
 
 .name {
-    font-weight: bold;
+    font-weight:1000;
     font-size:large;
     display: flex;
     align-self: flex-end;
 }
+
+.action {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
 
 
