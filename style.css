@@ -85,20 +85,21 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     color:#1f2937;
     text-align:justify;
-    padding: 90px;
+    padding: 80px 300px 80px 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .inspiring {
-    font-size: 36px;
+    
+    font-size: 35px;
     font-style: italic;
 }
 
 .name {
     font-weight:1000;
-    font-size:large;
+    font-size: 18px;
     display: flex;
     align-self: flex-end;
 }
@@ -107,12 +108,24 @@ h2 {
     background-color: #3882f6;
     color: #f9faf8;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 50px;
+    font-size: 18px;
+    margin: 90px 200px 90px 200px;
     padding: 30px;
     border-radius: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.cto1 {
+    font-weight: 1000;
+    margin-bottom: -15px;
+}
+
+
+
+footer {
+
 }
 
 
