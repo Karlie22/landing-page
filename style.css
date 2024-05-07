@@ -125,7 +125,12 @@ h2 {
 
 
 footer {
-
+    background-color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e5e7eb;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
 }
 
 
