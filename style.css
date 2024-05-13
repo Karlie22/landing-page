@@ -139,7 +139,16 @@ h2 {
     margin-bottom: -15px;
 }
 
-
+.button2 {
+   background-color: #3882f6;
+   border-color:#e5e7eb;
+   color: #e5e7eb;
+   border-radius: 5px;
+   border-style: solid;
+   font-size: medium;
+   font-weight: bolder;
+   padding: 8px 32px;
+}
 
 footer {
     background-color: #1f2937;
